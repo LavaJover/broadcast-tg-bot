@@ -1,0 +1,12 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv
+env
+bot.db_old   # если есть резервные копии
+.git
+.gitignore
+README.md    # если не нужен внутри контейнера

@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import List, Tuple
 
 
-DB_PATH = Path(__file__).with_name("bot.db")
+DB_PATH = Path(__file__).parent / "data" / "bot.db"
 
 
 def _get_connection() -> sqlite3.Connection:
